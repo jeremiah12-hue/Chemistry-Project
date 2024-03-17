@@ -219,16 +219,11 @@ img  {
     width: 100%;
     height: fit-content;
     background-color: black;
-    /* color: lightgray; */
     cursor: pointer;
-    /* animation-name: footeranimate;
-    animation-duration: 4s;
-    animation-iteration-count: infinite; */
     overflow: hidden;
-    /* text-decoration: none; */
 }
 .footer_icons a i  {
-    width: auto,;
+    width: auto;
     height: auto;
     padding: auto;
     color: lightgray;
