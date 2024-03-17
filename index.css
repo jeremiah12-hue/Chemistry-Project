@@ -204,40 +204,39 @@ img  {
     line-break: auto;
     line-height: auto;
 }
-.youtube  {
+.youtube_vid  {
     display: inline-block;
     text-align: left;
     color: lightgray;
-    width: 100%;
-    height: fit-content;
+    max-width: 100%;
+    height: auto;
     background-color: #000000;
     cursor: pointer;
 }
 .footer_container  {
-    display: inline-block;
+    display: block;
     text-align: left;
-    width: 80%;
+    width: 100%;
     height: fit-content;
     background-color: black;
+    /* color: lightgray; */
     cursor: pointer;
-    animation-name: footeranimate;
+    /* animation-name: footeranimate;
     animation-duration: 4s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: infinite; */
     overflow: hidden;
-    margin-inline: 10%;
-    text-decoration: none;
+    /* text-decoration: none; */
 }
-.footer_icons  {
-    width: 100%;
+.footer_icons a i  {
+    width: auto,;
     height: auto;
+    padding: auto;
+    color: lightgray;
     transition: all 0.3s ease-out;
     animation-name: footeranimate;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     margin-top: 60px;
-    margin-bottom: 0%;
-    padding-bottom: 0%;
-    outline: none;
 }
 .footer_icons i  {
     transition: all 0.3s ease;
@@ -246,12 +245,32 @@ img  {
     transform: translateX(500px);
     transform: rotate(180deg);
 }
-.footer_text  {
+.footer_gettext  {
     margin-top: 0%;
     padding-top: 0%;
     outline: none;
     font-weight: bolder;
     font-size: small;
+    color: lightgray;
+    transition: all 0.3s ease-out;
+    animation-name: footeranimate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.footer_text  {
+    margin-top: 0%;
+    padding-top: 0%;
+    /* outline: none; */
+    font-weight: bolder;
+    font-size: small;
+    color: lightgray;
+    /* transition: all 0.3s ease-out;
+    animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+#foot_txt_link  {
+    color: lightgray;
+    text-decoration: none;
     transition: all 0.3s ease-out;
     animation-name: footeranimate;
     animation-duration: 4s;
