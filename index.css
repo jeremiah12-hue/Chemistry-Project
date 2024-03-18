@@ -217,7 +217,7 @@ img  {
     display: block;
     text-align: left;
     width: 100%;
-    height: fit-content;
+    height: auto;
     background-color: black;
     cursor: pointer;
     overflow: hidden;
@@ -226,12 +226,14 @@ img  {
     display: inline-block;
     width: auto;
     height: auto;
+    padding-inline: 10px;
     color: lightgray;
     transition: all 0.3s ease-out;
     animation-name: footeranimate;
     animation-duration: 4s;
     animation-iteration-count: infinite;
     margin-top: 60px;
+    overflow: hidden;
 }
 .footer_icons i  {
     transition: all 0.3s ease;
