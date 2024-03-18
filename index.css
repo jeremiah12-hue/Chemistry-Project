@@ -223,10 +223,10 @@ img  {
     overflow: hidden;
 }
 .footer_icons a i  {
-    display: inline-block;
+    display: inline;
     width: auto;
     height: auto;
-    padding-inline: 10px;
+    padding-inline: auto;
     color: lightgray;
     transition: all 0.3s ease-out;
     animation-name: footeranimate;
